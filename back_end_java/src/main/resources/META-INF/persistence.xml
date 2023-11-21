@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <persistence-unit name="fpt.aptech_spring_project_sem4_api_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Company</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.SkillsExperiences</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Review</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Test</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.ReasonsToJoin</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Candidate</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Employer</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Skill</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Sale</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Job</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.SearchMonitor</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Title</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.ResumeTemplate</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.ResumeEachJob</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Answer</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.JobsDescriptions</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Question</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.ResumePDF</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.WhyYouLoveWorkingHere</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Favorite</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.JobMonitor</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.JobSkill</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Controller</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Reasonstojoin</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.VwJob</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.ViewJobSkill</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Viewjobskill</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Viewjobskilltitleemployercompany</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Viewjobskillemployercompany</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Whyyouloveworkinghere</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Jobsdescriptions</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Resumeeachjob</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Skillsexperiences</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Jobskill</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Searchmonitor</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Resumepdf</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Resumetemplate</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Jobmonitor</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Viewemployer</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Viewfavoritejobemployercompanyjobskill</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Viewreview</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Testresult</class>
+    <class>fpt.aptech.spring_project_sem4_api.entities.Resumedigitaleachjob</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://LAPTOPVUNAACER\SQLEXPRESS:1433;databaseName=DB4"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="123"/>
+    </properties>
+  </persistence-unit>
+</persistence>

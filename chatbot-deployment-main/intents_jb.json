@@ -1,0 +1,598 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "how are yo",
+        "how are y",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "129",
+        "good morning",
+        "morning"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "byes",
+        "bye",
+        "bb",
+        "byebye",
+        "farewell",
+        "adios",
+        "ciao",
+        "cheerio",
+        "later",
+        "see ya",
+        "ta-ta",
+        "take care",
+        "peace out",
+        "catch you later",
+        "goodbye",
+        "goodby",
+        "goodb",
+        "bye", "byeby", "byeb", "bye", "farewel", "farewe", "farew", "fare", "far", "adio", "adi", "cia", "cheeri", "cheer", "chee", "che", "late", "lat", "see y", "see ", "see", "ta-t", "ta-", "take car", "take ca", "take c", "take ", "take", "tak", "peace ou", "peace o", "peace ", "peace", "peac", "pea", "catch you late", "catch you lat", "catch you la", "catch you l", "catch you ", "catch you", "catch yo", "catch y", "catch ", "catch", "catc", "cat", "goodby", "goodb", "good", "goo"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank",
+        "thankyou",
+        "thank you",
+        "appreciate it",
+        "cheers",
+        "gratitude",
+        "much obliged",
+        "thx",
+        "ta",
+        "thanking you",
+        "kudos",
+        "thank", "than", "than", "thankyo", "thanky", "thank", "than", "thank yo", "thank y", "thank ", "thank", "than", "appreciate i", "appreciate ", "appreciate", "appreciat", "apprecia", "appreci", "apprec", "appre", "appr", "cheer", "chee", "gratitud", "gratitu", "gratit", "grati", "grat", "much oblige", "much oblig", "much obli", "much obl", "much ob", "much o", "much ", "much", "prop", "thanking yo", "thanking y", "thanking ", "thanking", "thankin", "thanki", "thank", "than", "kudo"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "Type of Skills",
+        "Type of Skill",
+        "Type of Skil",
+        "skills",
+        "skill",
+        "skil"
+      ],
+      "responses": [
+        "we have 21 skills related to IT jobs in this website, they are listed below:/n/nReactJS/njava/nphp/njavascript/nSQL/nAndroid/niOS/nMySQL/nTester/nRuby/nPython/nMobile Apps/nRuby on Rails/nQA QC/n.NET/nBusiness Analyst/nLinux/nNodeJS/nDesigner/nMachine learning/nAI/n"
+      ]
+    },
+    {
+      "tag": "skill",
+      "patterns": [
+        "ReactJS",
+        "java",
+        "php",
+        "javascript",
+        "SQL",
+        "Android",
+        "iOS",
+        "MySQL",
+        "Tester",
+        "Ruby",
+        "Python",
+        "Mobile Apps",
+        "Ruby on Rails",
+        "QA QC",
+        ".NET",
+        "Business Analyst",
+        "Linux",
+        "NodeJS",
+        "Designer",
+        "Machine learning",
+        "AI",
+        "ReactJ", "React", "Reac", "javascrip", "javascri", "javascr", "javasc", "javas", "java", "Androi", "Andro", "Andr", "MySQ", "Teste", "Test", "Pytho", "Pyth", "Mobile App", "Mobile Ap", "Mobile A", "Mobile ", "Mobile", "Mobil", "Mobi", "Ruby on Rail", "Ruby on Rai", "Ruby on Ra", "Ruby on R", "Ruby on ", "Ruby on", "Ruby o", "Ruby ", "Ruby", "QA Q", "Business Analys", "Business Analy", "Business Anal", "Business Ana", "Business An", "Business A", "Business ", "Business", "Busines", "Busine", "Busin", "Busi", "Linu", "NodeJ", "Node", "Designe", "Design", "Desig", "Desi", "Machine learnin", "Machine learni", "Machine learn", "Machine lear", "Machine lea", "Machine le", "Machine l", "Machine ", "Machine", "Machin", "Machi", "Mach",
+        "I want Skill ReactJS",
+        "I want Skill java",
+        "I want Skill php",
+        "I want Skill javascript",
+        "I want Skill SQL",
+        "I want Skill Android",
+        "I want Skill iOS",
+        "I want Skill MySQL",
+        "I want Skill Tester",
+        "I want Skill Ruby",
+        "I want Skill Python",
+        "I want Skill Mobile Apps",
+        "I want Skill Ruby on Rails",
+        "I want Skill QA QC",
+        "I want Skill .NET",
+        "I want Skill Business Analyst",
+        "I want Skill Linux",
+        "I want Skill NodeJS",
+        "I want Skill Designer",
+        "I want Skill Machine learning",
+        "I want Skill AI",
+        "I want Skill ReactJ", "I want Skill React", "I want Skill Reac", "I want Skill javascrip", "I want Skill javascri", "I want Skill javascr", "I want Skill javasc", "I want Skill javas", "I want Skill java", "I want Skill Androi", "I want Skill Andro", "I want Skill Andr", "I want Skill MySQ", "I want Skill Teste", "I want Skill Test", "I want Skill Pytho", "I want Skill Pyth", "I want Skill Mobile App", "I want Skill Mobile Ap", "I want Skill Mobile A", "I want Skill Mobile ", "I want Skill Mobile", "I want Skill Mobil", "I want Skill Mobi", "I want Skill Ruby on Rail", "I want Skill Ruby on Rai", "I want Skill Ruby on Ra", "I want Skill Ruby on R", "I want Skill Ruby on ", "I want Skill Ruby on", "I want Skill Ruby o", "I want Skill Ruby ", "I want Skill Ruby", "I want Skill QA Q", "I want Skill Business Analys", "I want Skill Business Analy", "I want Skill Business Anal", "I want Skill Business Ana", "I want Skill Business An", "I want Skill Business A", "I want Skill Business ", "I want Skill Business", "I want Skill Busines", "I want Skill Busine", "I want Skill Busin", "I want Skill Busi", "I want Skill Linu", "I want Skill NodeJ", "I want Skill Node", "I want Skill Designe", "I want Skill Design", "I want Skill Desig", "I want Skill Desi", "I want Skill Machine learnin", "I want Skill Machine learni", "I want Skill Machine learn", "I want Skill Machine lear", "I want Skill Machine lea", "I want Skill Machine le", "I want Skill Machine l", "I want Skill Machine ", "I want Skill Machine", "I want Skill Machin", "I want Skill Machi", "I want Skill Mach"
+
+      ],
+      "responses": [
+        "your requested skill has been listed in the main screen. Please check it out"
+      ]
+    },
+    {
+      "tag": "is there something that you don't know",
+      "patterns": [
+      "is there something that you don't know"
+      ],
+      "responses": [
+      "As an machine learning model that being trained based on IT Job data, I only can advise customer about IT jobs."
+      ]
+    },
+    {
+      "tag": "if I ask you something that you don't know, what do you say",
+      "patterns": [
+      "if I ask you something that you don't know, what do you say"
+      ],
+      "responses": [
+      "Apparently, I will respond that I don't know, But I will learn more and more based on increasing data input training."
+      ]
+    },
+    {
+      "tag": "you are so stupid",
+      "patterns": [
+      "you are so stupid"
+      ],
+      "responses": [
+      "Well, I am a machine learning model which is being trained for just a few days with limited input data, and especially free...I have tried my best to assist you. I  will learn more and more based on increasing data input training."
+      ]
+    },
+    {
+      "tag": "are you black or white",
+      "patterns": [
+      "are you black or white"
+      ],
+      "responses": [
+        "Well, I am a chat bot, I'm not human."
+      ]
+    },
+    {
+      "tag": "do you like me",
+      "patterns": [
+      "do you like me"
+      ],
+      "responses": [
+        "Yes I like you. I'm always here to help you."
+      ]
+    },
+    {
+      "tag": "i don't like you",
+      "patterns": [
+      "i don't like you"
+      ],
+      "responses": [
+        "so sorry to hear that, please advise me which point of view you don't like me. I will take them into account and improve later on."
+      ]
+    },
+    {
+      "tag": "account management",
+      "patterns": [
+        "account management",
+        "account managemen",
+        "account manageme",
+        "account managem",
+        "account manage",
+        "account manag",
+        "account mana",
+        "account man",
+        "account ma",
+        "account m",
+        "account ",
+        "account",
+        "accoun",
+        "accou",
+        "acco"
+      ],
+      "responses": [
+        "Please review procedure of changing account information below:/n1. Log in to your  account./n2. Navigate to the 'Account Settings' or 'Profile' section./n3. Find and click on the 'Edit' or 'Change' option for the information you want to update (e.g., email, password, address)./n4. Enter the new information in the provided fields./n5. Verify the changes by re-entering the new information or providing additional confirmation./n6. If required, provide your current password for security verification./n7. Double-check the changes and ensure they are accurate./n8. Click the 'Save' or 'Update' button to apply the changes./n9. Some changes might require additional verification steps, such as confirming through a verification email or SMS./n10. After successfully updating the information, you might be prompted to log in again with the new details./n11. Confirm that your account information has been updated by reviewing the changes on your profile or account settings page."
+      ]
+    },
+    {
+      "tag": "sign up",
+      "patterns": [
+        "sign up",
+        "sign u",
+        "sign ",
+        "sign",
+        "signs",
+        "create account",
+        "create accoun",
+        "create accou",
+        "create acco",
+        "create acc",
+        "create ac",
+        "create a"
+      ],
+      "responses": [
+        "Please review below our procedure for sign up: /n1. Visit the Website: Access the  website's homepage. /n2. Click Sign Up: Look for the 'Sign Up' or 'Create Account' button/link and click on it. /n3. Provide Information: Fill out the registration form with your personal details. /n4. Enter Email: Input a valid email address that you have access to. /n5. Create Password: Choose a strong and secure password for your account. /n6. Confirm Password: Re-enter the password to ensure accuracy. /n7. Complete Captcha: Solve any CAPTCHA or verification challenges to prove you're not a robot. /n8. Review Terms: Read and agree to the terms of service and privacy policy. /n9. Click Sign Up: Confirm your registration by clicking the 'Sign Up' or 'Register' button. /n10. Verify Email: Check your email inbox for a verification link. /n11. Click Verification Link: Open the email and click on the provided verification link. /n12. Complete Profile: Once verified, you may be prompted to complete your profile with additional information. /n13. Explore the Website: Start browsing products and adding items to your cart. /n14. Manage Account: Access your account dashboard to updatetings, addresses, and payment methods. /n15. Make Purchases: Proceed to checkout to buy products and make payments. /n16. Receive Confirmation: Get order confirmation and tracking details for your purchases. /n17. Enjoy Shopping: Explore the website's offerings and enjoy your shopping experience! /n18. Provide Feedback: After making purchases, consider leaving reviews to help other shoppers. /n19. Stay Updated: Keep an eye on emails and notifications for promotions and updates. /n20. Log In: For future visits, use your email and password to log in to your account."
+      ]
+    },
+    {
+      "tag": "sign in",
+      "patterns": [
+        "sign in",
+        "sign i",
+        "log in",
+        "log i",
+        "registrations",
+        "registration",
+        "registratio",
+        "registrati",
+        "registrat",
+        "registra",
+        "registr",
+        "register",
+        "registe",
+        "regist",
+        "regis"
+      ],
+      "responses": [
+        "Please review below our sign in procedure: /n1. Visit the Website: Open your preferred web browser and navigate to the  website. /n2. Click Sign In: Look for the 'Sign In' or 'Log In' option on the homepage and click on it. /n3. Enter Credentials: Provide your registered email address and password in the respective fields. /n4. Click Sign In: Once you've entered your credentials, click the 'Sign In' button. /n5. Two-Factor Authentication (Optional): If enabled, complete any two-factor authentication steps. /n6. Account Verification (Optional): Verify your identity through email or phone verification if prompted. /n7. Access Your Account: Upon successful authentication, you'll be directed to your account dashboard. /n8. Browse and Shop: You can now browse products, add items to your cart, and proceed to checkout. /n9. Manage Account: Use your account dashboard to view order history, update information, and more. /n10. Sign Out: When you're done, remember to log out to secure your account."
+      ]
+    },
+    {
+      "tag": "sign out",
+      "patterns": [
+        "sign out",
+        "sign ou",
+        "sign o"
+      ],
+      "responses": [
+        "Please review below our sign out procedure: /n1. Navigate to the 'Account' or 'Profile' section of the  website./n2. Look for the 'Sign Out' or 'Log Out' option. It's usually located near your account information./n3. Click on the 'Sign Out' option./n4. You might be prompted to confirm your decision to sign out./n5. After confirming, you will be logged out of your account./n6. Make sure to close the browser tab or window for added security./n7. If you wish to use the website again, you'll need to log in with your credentials."
+      ]
+    },
+    {
+      "tag": "change password",
+      "patterns": [
+        "change password",
+        "change passwor",
+        "change passwo",
+        "change passw",
+        "change pass",
+        "change pas",
+        "change pa",
+        "change p",
+        "password",
+        "passwords",
+        "passwor",
+        "passwo",
+        "passw",
+        "pass"
+
+      ],
+      "responses": [
+        "Please review our changing password procedure below: /n1. Log in to your customer account on the  website./n2. Navigate to your account settings or profile page./n3. Look for the 'Change Password' or 'Update Password' option./n4. Click on the password change option to proceed./n5. You may be required to enter your current password for verification./n6. Enter your new desired password in the provided field./n7. Make sure your new password meets any requirements specified (e.g., minimum length, special characters, etc.)./n8. Confirm your new password by entering it again in a confirmation field./n9. Once both password fields match, submit the changes./n10. You might receive a confirmation message that your password has been changed successfully./n11. Log out of your account and log in again using your new password to ensure it works."
+      ]
+    },
+    {
+      "tag": "change email",
+      "patterns": [
+        "change email",
+        "change emai",
+        "change ema",
+        "change em",
+        "change e",
+        "emails",
+        "email",
+        "emai",
+        "ema"
+
+      ],
+      "responses": [
+        "Please review our changing email procedure below: /n1. Log in to your  account using your current email and password./n2. Navigate to the 'Account Settings' or 'Profile' section of the website./n3. Look for an option like 'Change Email' or 'Update Email Address' and click on it./n4. You may be asked to provide your current password for security purposes./n5. Enter your new email address in the designated field./n6. Confirm the new email address by entering it again./n7. Double-check the entered email address to ensure it's accurate./n8. Click on the 'Save' or 'Update' button to apply the changes./n9. The website may send a verification link or code to your new email address./n10. Check your new email inbox and click on the verification link or enter the code as required./n11. Once verified, your email address will be updated on the  website./n12. Log out and log in again with your new email address to ensure the changes are effective."
+      ]
+    },
+    {
+      "tag": "change address",
+      "patterns": [
+        "change address",
+        "change addres",
+        "change addre",
+        "change addr",
+        "change add",
+        "change ad",
+        "change a",
+        "address",
+        "addresses",
+        "addresse",
+        "addres",
+        "addre",
+        "addr"
+
+      ],
+      "responses": [
+        "Please review our changing address procedure below: /nLog in to your  account./nNavigate to the 'My Account' or 'Profile' section./nLook for the 'Address' or 'Shipping Information' tab./nClick on the 'Edit' or 'Update' option next to your current address./nEnter your new address details, including street address, city, state, postal code, and country./nDouble-check the entered information for accuracy./nClick the 'Save' or 'Update' button to save your new address./nYou might need to re-enter your password or provide additional verification for security purposes./nReview the updated address to ensure it's correct./nLog out of your account if you're done./nYou may receive a confirmation email regarding the address change."
+      ]
+    },
+    {
+      "tag": "account block",
+      "patterns": [
+        "account block",
+        "account bloc",
+        "account blo",
+        "account bl",
+        "account b",
+        "blocked",
+        "blocke",
+        "block",
+        "bloc",
+        "blo",
+        "banned",
+        "banne",
+        "bann",
+        "ban",
+        "locked",
+        "locke",
+        "lock",
+        "loc"
+      ],
+      "responses": [
+        "Your account has been blocked due to suspicious activity below:/n1. Multiple failed login attempts were detected on your account./n2. Unusual purchasing behavior triggered a security measure./n3. Your account was flagged for potential violation of our terms of service./n4. We detected a potential security breach on your account."
+      ]
+    },
+    {
+      "tag": "account recover",
+      "patterns": [
+        "account recover",
+        "account recove",
+        "account recov",
+        "account reco",
+        "account rec",
+        "account re",
+        "account r",
+        "recover",
+        "recove",
+        "recov",
+        "reco",
+        "recover my account",
+        "recover account",
+        "recover accoun",
+        "recover accou",
+        "recover acco",
+        "recover acc",
+        "recover ac",
+        "recover a",
+        "recover ",
+        "recover",
+        "recove",
+        "recov"
+      ],
+      "responses": [
+        "Please review procedure of recover account below: /nVisit the  website's login page./nClick on the 'Forgot Password' or 'Account Recovery' link./nEnter the email address associated with your account./nCheck your email inbox for a password reset link./nClick on the link provided in the email./nFollow the instructions to create a new password./nLog in to your account using the new password./nUpdate any additional account information if required."
+      ]
+    },
+    {
+      "tag": "dangerous",
+      "patterns": [
+        "abuse",
+        "drugs",
+        "drug",
+        "heroin",
+        "rape",
+        "affront",
+        "aspersion",
+        "belittle",
+        "calumny",
+        "censure",
+        "contumely",
+        "contumely",
+        "defame",
+        "denigrate",
+        "disparage",
+        "disrespect",
+        "effrontery",
+        "execration",
+        "flout",
+        "foul-mouthed",
+        "gibe",
+        "impugn",
+        "invective",
+        "irreverence",
+        "jeer",
+        "libel",
+        "mockery",
+        "obloquy",
+        "offense",
+        "outrage",
+        "profanity",
+        "revile",
+        "sarcasm",
+        "slander",
+        "slur",
+        "spite",
+        "spitefulness",
+        "spitefulness",
+        "taunt",
+        "vilification",
+        "vituperation",
+        "vulgarity",
+        "dangerous",
+        "insult",
+        "kill",
+        "hate",
+        "headshot",
+        "shit",
+        "bushit",
+        "motherfucker",
+        "fuck",
+        "deepshit",
+        "rape",
+        "sex",
+        "porn",
+        "hardcore",
+        "punch",
+        "hit",
+        "kick",
+        "slap",
+        "idiot",
+        "bastard",
+        "fuckface",
+        "dog",
+        "animal",
+        "tyrant",
+        "dangerous",
+        "hazedous",
+        "toxic",
+        "racist",
+        "insult",
+        "racist",
+        "agitation",
+        "distorted",
+        "offence",
+        "destructive",
+        "cry",
+        "rape",
+        "slave",
+        "toxic",
+        "hazardous",
+        "bitch",
+        "lying",
+        "lie",
+        "dead",
+        "die",
+        "dirty"
+      ],
+      "responses": [
+        "The content of your message is not suitable; kindly opt for alternative words. Many thanks.",
+        "Your communication contains unsuitable content. Please consider selecting alternate vocabulary. Thank you sincerely.",
+        "The wording in your message is not appropriate. Would you please use different terms? Many thanks.",
+        "The message you've conveyed is inappropriate. We request you to select alternative expressions. Thanks a lot.",
+        "Your statement is not fitting for the context; kindly choose alternative wording. Thank you very much.",
+        "The content of your message is unsuitable. Kindly opt for different words. Thanks a bunch.",
+        "Your message is not appropriate; kindly select different terms. Thanks a lot.",
+        "The choice of words in your message is inappropriate. Please consider using different expressions. Thank you very much.",
+        "The wording in your message is not suitable. Kindly choose alternate words. Many thanks.",
+        "Your message contains content that is not appropriate. Please choose different words. Thank you sincerely."
+      ]
+    },
+    {"tag":"NguyenAnhVu","patterns":["NguyenAnhVu"],"responses":["- username: NguyenAnhVu,/n- Full name:  Nguyen Anh Vu,/n- Email:  ethan.adams@google.com,/n- Phone: : 0982547769"]},
+{"tag":"EthanAdams","patterns":["EthanAdams"],"responses":["- username: EthanAdams,/n- Full name:  Ethan Adams,/n- Email:  lily.bennett@google.com,/n- Phone: : 0982547770"]},
+{"tag":"LilyBennett","patterns":["LilyBennett"],"responses":["- username: LilyBennett,/n- Full name:  Lily Bennett,/n- Email:  noah.carter@google.com,/n- Phone: : 0982547770"]},
+{"tag":"NoahCarter","patterns":["NoahCarter"],"responses":["- username: NoahCarter,/n- Full name:  Noah Carter,/n- Email:  ava.davis@google.com,/n- Phone: : 0982547771"]},
+{"tag":"AvaDavis","patterns":["AvaDavis"],"responses":["- username: AvaDavis,/n- Full name:  Ava Davis,/n- Email:  olivia.edwards@google.com,/n- Phone: : 0982547772"]},
+{"tag":"OliviaEdwards","patterns":["OliviaEdwards"],"responses":["- username: OliviaEdwards,/n- Full name:  Olivia Edwards,/n- Email:  benjamin.foster@google.com,/n- Phone: : 0982547773"]},
+{"tag":"BenjaminFoster","patterns":["BenjaminFoster"],"responses":["- username: BenjaminFoster,/n- Full name:  Benjamin Foster,/n- Email:  charlotte.grayson@google.com,/n- Phone: : 0982547774"]},
+{"tag":"CharlotteGrayson","patterns":["CharlotteGrayson"],"responses":["- username: CharlotteGrayson,/n- Full name:  Charlotte Grayson,/n- Email:  sophia.hayes@google.com,/n- Phone: : 0982547775"]},
+{"tag":"SophiaHayes","patterns":["SophiaHayes"],"responses":["- username: SophiaHayes,/n- Full name:  Sophia Hayes,/n- Email:  mason.ingram@google.com,/n- Phone: : 0982547776"]},
+{"tag":"MasonIngram","patterns":["MasonIngram"],"responses":["- username: MasonIngram,/n- Full name:  Mason Ingram,/n- Email:  james.jackson@google.com,/n- Phone: : 0982547777"]},
+{"tag":"JamesJackson","patterns":["JamesJackson"],"responses":["- username: JamesJackson,/n- Full name:  James Jackson,/n- Email:  emma.kelly@google.com,/n- Phone: : 0982547778"]},
+{"tag":"EmmaKelly","patterns":["EmmaKelly"],"responses":["- username: EmmaKelly,/n- Full name:  Emma Kelly,/n- Email:  grace.lopez@google.com,/n- Phone: : 0982547779"]},
+{"tag":"GraceLopez","patterns":["GraceLopez"],"responses":["- username: GraceLopez,/n- Full name:  Grace Lopez,/n- Email:  samuel.mitchell@google.com,/n- Phone: : 0982547780"]},
+{"tag":"SamuelMitchell","patterns":["SamuelMitchell"],"responses":["- username: SamuelMitchell,/n- Full name:  Samuel Mitchell,/n- Email:  aiden.nelson@google.com,/n- Phone: : 0982547781"]},
+{"tag":"AidenNelson","patterns":["AidenNelson"],"responses":["- username: AidenNelson,/n- Full name:  Aiden Nelson,/n- Email:  harper.owens@google.com,/n- Phone: : 0982547782"]},
+{"tag":"HarperOwens","patterns":["HarperOwens"],"responses":["- username: HarperOwens,/n- Full name:  Harper Owens,/n- Email:  david.patel@google.com,/n- Phone: : 0982547783"]},
+{"tag":"DavidPatel","patterns":["DavidPatel"],"responses":["- username: DavidPatel,/n- Full name:  David Patel,/n- Email:  william.quinn@google.com,/n- Phone: : 0982547784"]},
+{"tag":"WilliamQuinn","patterns":["WilliamQuinn"],"responses":["- username: WilliamQuinn,/n- Full name:  William Quinn,/n- Email:  mia.robinson@google.com,/n- Phone: : 0982547785"]},
+{"tag":"MiaRobinson","patterns":["MiaRobinson"],"responses":["- username: MiaRobinson,/n- Full name:  Mia Robinson,/n- Email:  elijah.simmons@google.com,/n- Phone: : 0982547786"]},
+{"tag":"ElijahSimmons","patterns":["ElijahSimmons"],"responses":["- username: ElijahSimmons,/n- Full name:  Elijah Simmons,/n- Email:  daniel.thompson@google.com,/n- Phone: : 0982547787"]},
+{"tag":"DanielThompson","patterns":["DanielThompson"],"responses":["- username: DanielThompson,/n- Full name:  Daniel Thompson,/n- Email:  avery.turner@google.com,/n- Phone: : 0982547788"]},
+{"tag":"AveryTurner","patterns":["AveryTurner"],"responses":["- username: AveryTurner,/n- Full name:  Avery Turner,/n- Email:  lucas.underwood@google.com,/n- Phone: : 0982547789"]},
+{"tag":"LucasUnderwood","patterns":["LucasUnderwood"],"responses":["- username: LucasUnderwood,/n- Full name:  Lucas Underwood,/n- Email:  jackson.vega@google.com,/n- Phone: : 0982547790"]},
+{"tag":"JacksonVega","patterns":["JacksonVega"],"responses":["- username: JacksonVega,/n- Full name:  Jackson Vega,/n- Email:  logan.walker@google.com,/n- Phone: : 0982547791"]},
+{"tag":"LoganWalker","patterns":["LoganWalker"],"responses":["- username: LoganWalker,/n- Full name:  Logan Walker,/n- Email:  alexander.xavier@google.com,/n- Phone: : 0982547792"]},
+{"tag":"AlexanderXavier","patterns":["AlexanderXavier"],"responses":["- username: AlexanderXavier,/n- Full name:  Alexander Xavier,/n- Email:  victoria.young@google.com,/n- Phone: : 0982547793"]},
+{"tag":"VictoriaYoung","patterns":["VictoriaYoung"],"responses":["- username: VictoriaYoung,/n- Full name:  Victoria Young,/n- Email:  gabriel.adams@google.com,/n- Phone: : 0982547794"]},
+{"tag":"GabrielAdams","patterns":["GabrielAdams"],"responses":["- username: GabrielAdams,/n- Full name:  Gabriel Adams,/n- Email:  zoe.bennett@google.com,/n- Phone: : 0982547795"]},
+{"tag":"ZoeBennett","patterns":["ZoeBennett"],"responses":["- username: ZoeBennett,/n- Full name:  Zoe Bennett,/n- Email:  matthew.carter@google.com,/n- Phone: : 0982547796"]},
+{"tag":"MatthewCarter","patterns":["MatthewCarter"],"responses":["- username: MatthewCarter,/n- Full name:  Matthew Carter,/n- Email:  aubrey.davis@google.com,/n- Phone: : 0982547797"]},
+{"tag":"AubreyDavis","patterns":["AubreyDavis"],"responses":["- username: AubreyDavis,/n- Full name:  Aubrey Davis,/n- Email:  emily.edwards@google.com,/n- Phone: : 0982547798"]},
+{"tag":"EmilyEdwards","patterns":["EmilyEdwards"],"responses":["- username: EmilyEdwards,/n- Full name:  Emily Edwards,/n- Email:  christopher.foster@google.com,/n- Phone: : 0982547799"]},
+{"tag":"ChristopherFoster","patterns":["ChristopherFoster"],"responses":["- username: ChristopherFoster,/n- Full name:  Christopher Foster,/n- Email:  natalie.grayson@google.com,/n- Phone: : 0982547800"]},
+{"tag":"NatalieGrayson","patterns":["NatalieGrayson"],"responses":["- username: NatalieGrayson,/n- Full name:  Natalie Grayson,/n- Email:  andrew.hayes@google.com,/n- Phone: : 0982547801"]},
+{"tag":"AndrewHayes","patterns":["AndrewHayes"],"responses":["- username: AndrewHayes,/n- Full name:  Andrew Hayes,/n- Email:  isabella.ingram@google.com,/n- Phone: : 0982547802"]},
+{"tag":"IsabellaIngram","patterns":["IsabellaIngram"],"responses":["- username: IsabellaIngram,/n- Full name:  Isabella Ingram,/n- Email:  joseph.jackson@google.com,/n- Phone: : 0982547803"]},
+{"tag":"JosephJackson","patterns":["JosephJackson"],"responses":["- username: JosephJackson,/n- Full name:  Joseph Jackson,/n- Email:  madison.kelly@google.com,/n- Phone: : 0982547804"]},
+{"tag":"MadisonKelly","patterns":["MadisonKelly"],"responses":["- username: MadisonKelly,/n- Full name:  Madison Kelly,/n- Email:  ava.lopez@google.com,/n- Phone: : 0982547805"]},
+{"tag":"AvaLopez","patterns":["AvaLopez"],"responses":["- username: AvaLopez,/n- Full name:  Ava Lopez,/n- Email:  sophia.mitchell@google.com,/n- Phone: : 0982547806"]},
+{"tag":"SophiaMitchell","patterns":["SophiaMitchell"],"responses":["- username: SophiaMitchell,/n- Full name:  Sophia Mitchell,/n- Email:  ethan.nelson@google.com,/n- Phone: : 0982547807"]},
+{"tag":"EthanNelson","patterns":["EthanNelson"],"responses":["- username: EthanNelson,/n- Full name:  Ethan Nelson,/n- Email:  michael.owens@google.com,/n- Phone: : 0982547808"]},
+{"tag":"MichaelOwens","patterns":["MichaelOwens"],"responses":["- username: MichaelOwens,/n- Full name:  Michael Owens,/n- Email:  olivia.patel@google.com,/n- Phone: : 0982547809"]},
+{"tag":"OliviaPatel","patterns":["OliviaPatel"],"responses":["- username: OliviaPatel,/n- Full name:  Olivia Patel,/n- Email:  ethan.quinn@google.com,/n- Phone: : 0982547810"]},
+{"tag":"EthanQuinn","patterns":["EthanQuinn"],"responses":["- username: EthanQuinn,/n- Full name:  Ethan Quinn,/n- Email:  lily.robinson@google.com,/n- Phone: : 0982547811"]},
+{"tag":"LilyRobinson","patterns":["LilyRobinson"],"responses":["- username: LilyRobinson,/n- Full name:  Lily Robinson,/n- Email:  noah.simmons@google.com,/n- Phone: : 0982547812"]},
+{"tag":"NoahSimmons","patterns":["NoahSimmons"],"responses":["- username: NoahSimmons,/n- Full name:  Noah Simmons,/n- Email:  benjamin.thompson@google.com,/n- Phone: : 0982547813"]},
+{"tag":"BenjaminThompson","patterns":["BenjaminThompson"],"responses":["- username: BenjaminThompson,/n- Full name:  Benjamin Thompson,/n- Email:  harper.turner@google.com,/n- Phone: : 0982547814"]},
+{"tag":"HarperTurner","patterns":["HarperTurner"],"responses":["- username: HarperTurner,/n- Full name:  Harper Turner,/n- Email:  mason.underwood@google.com,/n- Phone: : 0982547815"]},
+{"tag":"MasonUnderwood","patterns":["MasonUnderwood"],"responses":["- username: MasonUnderwood,/n- Full name:  Mason Underwood,/n- Email:  ava.vega@google.com,/n- Phone: : 0982547816"]},
+{"tag":"AvaVega","patterns":["AvaVega"],"responses":["- username: AvaVega,/n- Full name:  Ava Vega,/n- Email:  emma.walker@google.com,/n- Phone: : 0982547817"]},
+{"tag":"EmmaWalker","patterns":["EmmaWalker"],"responses":["- username: EmmaWalker,/n- Full name:  Emma Walker,/n- Email:  william.xavier@google.com,/n- Phone: : 0982547818"]},
+{"tag":"WilliamXavier","patterns":["WilliamXavier"],"responses":["- username: WilliamXavier,/n- Full name:  William Xavier,/n- Email:  charlotte.young@google.com,/n- Phone: : 0982547819"]},
+{"tag":"CharlotteYoung","patterns":["CharlotteYoung"],"responses":["- username: CharlotteYoung,/n- Full name:  Charlotte Young,/n- Email:  lucas.adams@google.com,/n- Phone: : 0982547820"]},
+{"tag":"LucasAdams","patterns":["LucasAdams"],"responses":["- username: LucasAdams,/n- Full name:  Lucas Adams,/n- Email:  grace.bennett@google.com,/n- Phone: : 0982547821"]},
+{"tag":"GraceBennett","patterns":["GraceBennett"],"responses":["- username: GraceBennett,/n- Full name:  Grace Bennett,/n- Email:  samuel.carter@google.com,/n- Phone: : 0982547822"]},
+{"tag":"SamuelCarter","patterns":["SamuelCarter"],"responses":["- username: SamuelCarter,/n- Full name:  Samuel Carter,/n- Email:  mia.davis@google.com,/n- Phone: : 0982547823"]},
+{"tag":"MiaDavis","patterns":["MiaDavis"],"responses":["- username: MiaDavis,/n- Full name:  Mia Davis,/n- Email:  alexander.edwards@google.com,/n- Phone: : 0982547824"]},
+{"tag":"AlexanderEdwards","patterns":["AlexanderEdwards"],"responses":["- username: AlexanderEdwards,/n- Full name:  Alexander Edwards,/n- Email:  james.foster@google.com,/n- Phone: : 0982547825"]},
+{"tag":"JamesFoster","patterns":["JamesFoster"],"responses":["- username: JamesFoster,/n- Full name:  James Foster,/n- Email:  victoria.grayson@google.com,/n- Phone: : 0982547826"]},
+{"tag":"VictoriaGrayson","patterns":["VictoriaGrayson"],"responses":["- username: VictoriaGrayson,/n- Full name:  Victoria Grayson,/n- Email:  aiden.hayes@google.com,/n- Phone: : 0982547827"]},
+{"tag":"AidenHayes","patterns":["AidenHayes"],"responses":["- username: AidenHayes,/n- Full name:  Aiden Hayes,/n- Email:  sophia.ingram@google.com,/n- Phone: : 0982547828"]},
+{"tag":"SophiaIngram","patterns":["SophiaIngram"],"responses":["- username: SophiaIngram,/n- Full name:  Sophia Ingram,/n- Email:  daniel.jackson@google.com,/n- Phone: : 0982547829"]},
+{"tag":"DanielJackson","patterns":["DanielJackson"],"responses":["- username: DanielJackson,/n- Full name:  Daniel Jackson,/n- Email:  natalie.kelly@google.com,/n- Phone: : 0982547830"]},
+{"tag":"NatalieKelly","patterns":["NatalieKelly"],"responses":["- username: NatalieKelly,/n- Full name:  Natalie Kelly,/n- Email:  elijah.lopez@google.com,/n- Phone: : 0982547831"]},
+{"tag":"ElijahLopez","patterns":["ElijahLopez"],"responses":["- username: ElijahLopez,/n- Full name:  Elijah Lopez,/n- Email:  david.mitchell@google.com,/n- Phone: : 0982547832"]},
+{"tag":"DavidMitchell","patterns":["DavidMitchell"],"responses":["- username: DavidMitchell,/n- Full name:  David Mitchell,/n- Email:  zoe.nelson@google.com,/n- Phone: : 0982547833"]},
+{"tag":"ZoeNelson","patterns":["ZoeNelson"],"responses":["- username: ZoeNelson,/n- Full name:  Zoe Nelson,/n- Email:  emily.owens@google.com,/n- Phone: : 0982547834"]},
+{"tag":"EmilyOwens","patterns":["EmilyOwens"],"responses":["- username: EmilyOwens,/n- Full name:  Emily Owens,/n- Email:  matthew.patel@google.com,/n- Phone: : 0982547835"]},
+{"tag":"MatthewPatel","patterns":["MatthewPatel"],"responses":["- username: MatthewPatel,/n- Full name:  Matthew Patel,/n- Email:  christopher.quinn@google.com,/n- Phone: : 0982547836"]},
+{"tag":"ChristopherQuinn","patterns":["ChristopherQuinn"],"responses":["- username: ChristopherQuinn,/n- Full name:  Christopher Quinn,/n- Email:  isabella.robinson@google.com,/n- Phone: : 0982547837"]},
+{"tag":"IsabellaRobinson","patterns":["IsabellaRobinson"],"responses":["- username: IsabellaRobinson,/n- Full name:  Isabella Robinson,/n- Email:  benjamin.simmons@google.com,/n- Phone: : 0982547838"]},
+{"tag":"BenjaminSimmons","patterns":["BenjaminSimmons"],"responses":["- username: BenjaminSimmons,/n- Full name:  Benjamin Simmons,/n- Email:  michael.thompson@google.com,/n- Phone: : 0982547839"]},
+{"tag":"MichaelThompson","patterns":["MichaelThompson"],"responses":["- username: MichaelThompson,/n- Full name:  Michael Thompson,/n- Email:  olivia.turner@google.com,/n- Phone: : 0982547840"]},
+{"tag":"OliviaTurner","patterns":["OliviaTurner"],"responses":["- username: OliviaTurner,/n- Full name:  Olivia Turner,/n- Email:  ethan.underwood@google.com,/n- Phone: : 0982547841"]},
+{"tag":"EthanUnderwood","patterns":["EthanUnderwood"],"responses":["- username: EthanUnderwood,/n- Full name:  Ethan Underwood,/n- Email:  lily.vega@google.com,/n- Phone: : 0982547842"]},
+{"tag":"LilyVega","patterns":["LilyVega"],"responses":["- username: LilyVega,/n- Full name:  Lily Vega,/n- Email:  noah.walker@google.com,/n- Phone: : 0982547843"]},
+{"tag":"NoahWalker","patterns":["NoahWalker"],"responses":["- username: NoahWalker,/n- Full name:  Noah Walker,/n- Email:  ava.xavier@google.com,/n- Phone: : 0982547844"]},
+{"tag":"AvaXavier","patterns":["AvaXavier"],"responses":["- username: AvaXavier,/n- Full name:  Ava Xavier,/n- Email:  gabriel.young@google.com,/n- Phone: : 0982547845"]},
+{"tag":"GabrielYoung","patterns":["GabrielYoung"],"responses":["- username: GabrielYoung,/n- Full name:  Gabriel Young,/n- Email:  grace.adams@google.com,/n- Phone: : 0982547846"]},
+{"tag":"GraceAdams","patterns":["GraceAdams"],"responses":["- username: GraceAdams,/n- Full name:  Grace Adams,/n- Email:  mason.bennett@google.com,/n- Phone: : 0982547847"]},
+{"tag":"MasonBennett","patterns":["MasonBennett"],"responses":["- username: MasonBennett,/n- Full name:  Mason Bennett,/n- Email:  harper.carter@google.com,/n- Phone: : 0982547848"]},
+{"tag":"HarperCarter","patterns":["HarperCarter"],"responses":["- username: HarperCarter,/n- Full name:  Harper Carter,/n- Email:  sophia.davis@google.com,/n- Phone: : 0982547849"]},
+{"tag":"SophiaDavis","patterns":["SophiaDavis"],"responses":["- username: SophiaDavis,/n- Full name:  Sophia Davis,/n- Email:  emma.edwards@google.com,/n- Phone: : 0982547850"]},
+{"tag":"EmmaEdwards","patterns":["EmmaEdwards"],"responses":["- username: EmmaEdwards,/n- Full name:  Emma Edwards,/n- Email:  william.foster@google.com,/n- Phone: : 0982547851"]},
+{"tag":"WilliamFoster","patterns":["WilliamFoster"],"responses":["- username: WilliamFoster,/n- Full name:  William Foster,/n- Email:  alexander.grayson@google.com,/n- Phone: : 0982547852"]},
+{"tag":"AlexanderGrayson","patterns":["AlexanderGrayson"],"responses":["- username: AlexanderGrayson,/n- Full name:  Alexander Grayson,/n- Email:  mia.hayes@google.com,/n- Phone: : 0982547853"]},
+{"tag":"MiaHayes","patterns":["MiaHayes"],"responses":["- username: MiaHayes,/n- Full name:  Mia Hayes,/n- Email:  benjamin.ingram@google.com,/n- Phone: : 0982547854"]},
+{"tag":"BenjaminIngram","patterns":["BenjaminIngram"],"responses":["- username: BenjaminIngram,/n- Full name:  Benjamin Ingram,/n- Email:  charlotte.jackson@google.com,/n- Phone: : 0982547855"]},
+{"tag":"CharlotteJackson","patterns":["CharlotteJackson"],"responses":["- username: CharlotteJackson,/n- Full name:  Charlotte Jackson,/n- Email:  daniel.kelly@google.com,/n- Phone: : 0982547856"]},
+{"tag":"DanielKelly","patterns":["DanielKelly"],"responses":["- username: DanielKelly,/n- Full name:  Daniel Kelly,/n- Email:  olivia.lopez@google.com,/n- Phone: : 0982547857"]},
+{"tag":"OliviaLopez","patterns":["OliviaLopez"],"responses":["- username: OliviaLopez,/n- Full name:  Olivia Lopez,/n- Email:  lucas.mitchell@google.com,/n- Phone: : 0982547858"]},
+{"tag":"LucasMitchell","patterns":["LucasMitchell"],"responses":["- username: LucasMitchell,/n- Full name:  Lucas Mitchell,/n- Email:  matthew.nelson@google.com,/n- Phone: : 0982547859"]},
+{"tag":"MatthewNelson","patterns":["MatthewNelson"],"responses":["- username: MatthewNelson,/n- Full name:  Matthew Nelson,/n- Email:  zoe.owens@google.com,/n- Phone: : 0982547860"]},
+{"tag":"ZoeOwens","patterns":["ZoeOwens"],"responses":["- username: ZoeOwens,/n- Full name:  Zoe Owens,/n- Email:  emily.patel@google.com,/n- Phone: : 0982547861"]},
+{"tag":"EmilyPatel","patterns":["EmilyPatel"],"responses":["- username: EmilyPatel,/n- Full name:  Emily Patel,/n- Email:  noah.simmons@google.com,/n- Phone: : 0982547862"]},
+{"tag":"NoahSimmons","patterns":["NoahSimmons"],"responses":["- username: NoahSimmons,/n- Full name:  Noah Simmons,/n- Email:  benjamin.thompson@google.com,/n- Phone: : 0982547863"]},
+{"tag":"BenjaminThompson","patterns":["BenjaminThompson"],"responses":["- username: BenjaminThompson,/n- Full name:  Benjamin Thompson,/n- Email:  harper.turner@google.com,/n- Phone: : 0982547864"]},
+{"tag":"HarperTurner","patterns":["HarperTurner"],"responses":["- username: HarperTurner,/n- Full name:  Harper Turner,/n- Email:  mason.underwood@google.com,/n- Phone: : 0982547865"]},
+{"tag":"MasonUnderwood","patterns":["MasonUnderwood"],"responses":["- username: MasonUnderwood,/n- Full name:  Mason Underwood,/n- Email:  ava.vega@google.com,/n- Phone: : 0982547866"]}
+  ]
+}

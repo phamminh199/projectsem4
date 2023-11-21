@@ -1,0 +1,232 @@
+
+
+.component_PredictSalary {
+   margin: 10rem 0 0 0;
+    h1 {
+       text-align: center;
+    }
+    .inputWrapper {
+       .formAdd {
+          .inputGroup {
+             // border: 1px solid blue;
+             display: grid;
+             grid-template-columns: 50% 50%;
+             justify-content: space-between; //flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit
+             align-content: center;
+             align-items: center;//top, center, end
+             align-self: center;
+             text-align: center;
+             .left {
+                // border: 1px solid red;
+                .row {
+                   display: grid;
+                   grid-template-columns: 40% 60%;
+                   justify-content: space-between;
+                   align-content: center;
+                   align-items: center;//top
+                   align-self: center;
+                   text-align: center;
+                   margin: 1rem 0;
+                   height: 3rem;
+                   // border: 1px solid green;
+                   label {
+                      font-size: 17px;
+                      font-weight: bold;
+                      text-align: left;
+                      padding: 0 0 0 8rem;
+                      // border: 1px solid blue;
+                   }
+                   input {
+                      padding: 0.5rem 1rem;
+                      border-radius: 5px;
+                      border: 1px solid rgba(184, 184, 184, 0.893);
+                      outline: none;
+                      width: 70%;
+                      box-sizing: border-box;
+                      font-size: 17px;
+                   }
+                   .selectOption {
+                      padding: 0.5rem 1rem;
+                      border: 1px solid rgba(184, 184, 184, 0.893);
+                      border-radius: 5px;
+                      width: 70%;
+                      font-size: 17px;
+ 
+                   }
+                   .radioGroup {
+                      // border: 1px solid red;
+                      display: flex;
+                      flex-direction: row; //row|row-reverse|column|column-reverse
+                      justify-content: space-evenly; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+                      align-items: center; //stretch|center|flex-start|flex-end
+                      flex-wrap: nowrap; //|wrap|wrap-reverse
+                      .radio {
+                         display: flex;
+                         flex-direction: row; //row|row-reverse|column|column-reverse
+                         justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+                         align-items: center; //stretch|center|flex-start|flex-end
+                         flex-wrap: nowrap; //|wrap|wrap-reverse
+                   
+                         .item {
+                            padding: 0 0 0 0;
+                            margin: 0 1rem 0 0;
+                         }
+                      }
+                   }
+                   .seriesWrapper, .typeWrapper {
+                      padding: 0.5rem 1rem;
+                      border: 1px solid rgba(184, 184, 184, 0.893);
+                      border-radius: 5px;
+                   }
+                }//end row
+             }
+             .right {
+                // border: 1px solid red;
+                .row {
+                   display: grid;
+                   grid-template-columns: 40% 60%;
+                   justify-content: space-between;
+                   align-content: center;
+                   align-items: center;//top
+                   align-self: center;
+                   text-align: center;
+                   margin: 1rem 0;
+                   height: 3rem;
+                   label {
+                      font-size: 17px;
+                      font-weight: bold;
+                      text-align: left;
+                      padding: 0 0 0 8rem;
+                      // border: 1px solid blue;
+                   }
+                   input {
+                      padding: 0.5rem 1rem;
+                      border-radius: 5px;
+                      border: 1px solid rgba(184, 184, 184, 0.893);
+                      outline: none;
+                      width: 70%;
+                      box-sizing: border-box;
+                      font-size: 17px;
+                   }
+                   .selectOption {
+                      padding: 0.5rem 1rem;
+                      border: 1px solid rgba(184, 184, 184, 0.893);
+                      border-radius: 5px;
+                      width: 70%;
+                      font-size: 17px;
+ 
+                   }
+                   .radioGroup {
+                      // border: 1px solid red;
+                      display: flex;
+                      flex-direction: row; //row|row-reverse|column|column-reverse
+                      justify-content: space-evenly; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+                      align-items: center; //stretch|center|flex-start|flex-end
+                      flex-wrap: nowrap; //|wrap|wrap-reverse
+                      .radio {
+                         display: flex;
+                         flex-direction: row; //row|row-reverse|column|column-reverse
+                         justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+                         align-items: center; //stretch|center|flex-start|flex-end
+                         flex-wrap: nowrap; //|wrap|wrap-reverse
+                   
+                         .item {
+                            padding: 0 0 0 0;
+                            margin: 0 1rem 0 0;
+                         }
+                      }
+                   }
+                   .seriesWrapper, .typeWrapper {
+                      padding: 0.5rem 1rem;
+                      border: 1px solid rgba(184, 184, 184, 0.893);
+                      border-radius: 5px;
+                   }
+                }//end row
+             }
+ 
+          }
+          .btnWrapper {
+             display: flex;
+             flex-direction: row;
+             justify-content: center; 
+             align-items: center; //top
+             align-content: center;
+             align-self: center;
+             button {
+                margin: 0 3rem 0 0;
+                padding: 7px 20px;
+                background: rgb(87, 185, 63);
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                box-shadow: 0 0 10px rgba(149, 149, 149, 0.893);
+                color: white;
+                cursor: pointer;
+                font-size: 18px;
+                &:active{
+                box-shadow: none;
+                }
+             }
+             button:nth-child(2) {
+                background: #dc3545;
+             }
+          }
+       }
+       .inputInfo {
+          width: 50%;
+          margin: 0 auto;
+          h3 {
+             text-align: center;
+          }
+          .wrapper{
+             display: grid;
+             grid-template-columns: 50% 50%;
+             justify-content: space-between; //flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit
+             align-content: center;
+             align-items: center;//top, center, end
+             align-self: center;
+             text-align: center;
+             .left {
+                p {
+                   padding: 0 0 0 0;
+                   margin: 0 0 0 0;
+                   font-size: 20px;
+                   span {
+                      font-weight: bold;
+                   }
+                }
+             }
+             .right {
+                p {
+                   padding: 0 0 0 0;
+                   margin: 0 0 0 0;
+                   font-size: 20px;
+                   span {
+                      font-weight: bold;
+                   }
+                }
+             }
+          }
+ 
+          p {
+             span {
+                font-weight: bold;
+             }
+          }
+       }
+    }
+   .result {
+      h1 {
+         color: #0d6efd;
+      }
+   }
+    .history {
+       width: 100%;
+       margin: 0 auto;
+       img {
+          display: block;
+          margin: 0 auto;
+          width: 70%;
+       }
+    }
+ }

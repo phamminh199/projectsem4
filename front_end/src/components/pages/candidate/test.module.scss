@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+}
+.component_Test {
+    // margin: 60px 0 0 0;
+    // position:relative;
+    .heading {
+        height: 70px;
+        // border: 1px solid red;
+        z-index: 11;
+        position: absolute;
+        width: 100%;
+        background: white;
+        box-shadow: 0 0 10px rgba(192, 190, 190, 0.893);
+
+        h1 {
+            width: 70%;
+            margin: 1rem auto 0 auto;
+            padding: 0 0 0 0;
+        }
+    }
+    .separation {
+        height: 1px;
+    }
+    .info {
+        margin: 100px 0 0 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between; //flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit
+        align-content: center;
+        align-items: center;//top, center, end
+        align-self: center;
+        text-align: center;
+        z-index: 12;
+        .left {
+            display: flex;
+            flex-direction: row; //row|row-reverse|column|column-reverse
+            justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+            align-items: center; //stretch|center|flex-start|flex-end
+            flex-wrap: nowrap; //|wrap|wrap-reverse
+            // align-content: center;
+            // align-self: center;
+            // order: 1; //2,3,4,5, dành cho flexItem xếp thứ tự trong flexBox, property này đặt trong flexItem con
+        }
+        .center {
+            .row {
+                display: flex;
+                flex-direction: row; //row|row-reverse|column|column-reverse
+                justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+                align-items: center; //stretch|center|flex-start|flex-end
+                flex-wrap: nowrap; //|wrap|wrap-reverse
+                align-content: center;
+                align-self: center;
+                padding: 0 0 0 0;
+                margin: 0 0 0 0;
+                .icon {
+                    margin: 0.3rem 0 0 0;
+                    width: 1.5rem;
+                    // border: 1px solid blue;
+                }
+                .time {
+                    padding: 0 0 0 0;
+                    margin: 0 0 0 1rem;
+                    font-size: 35px;
+                    font-weight: bold;
+                }
+            }
+            .text {
+                font-size: 15px;
+                font-weight: bold;
+                padding: 0 0 0 0;
+                margin: 0 0 0 1rem;
+            }
+    
+        }
+        .right {
+            // width: 15rem;
+
+        }
+    }
+    .exam {
+        .navigation {
+            display: flex;
+            flex-direction: row; //row|row-reverse|column|column-reverse
+            justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+            align-items: center; //stretch|center|flex-start|flex-end
+            flex-wrap: nowrap; //|wrap|wrap-reverse
+            border-top: 1px solid rgba(184, 184, 184, 0.893);
+            border-right: 1px solid rgba(184, 184, 184, 0.893);
+            border-bottom: 1px solid rgba(184, 184, 184, 0.893);
+            border-left: 1px solid rgba(184, 184, 184, 0.893);
+            // align-content: center;
+            // align-self: center;
+            // order: 1; //2,3,4,5, dành cho flexItem xếp thứ tự trong flexBox, property này đặt trong flexItem con
+            .prev {
+                display: flex;
+                flex-direction: row; //row|row-reverse|column|column-reverse
+                justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+                align-items: center; //stretch|center|flex-start|flex-end
+                flex-wrap: nowrap; //|wrap|wrap-reverse
+                cursor: pointer;
+            }
+            .pagination {
+                display: flex;
+                flex-direction: row; //row|row-reverse|column|column-reverse
+                justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+                align-items: center; //stretch|center|flex-start|flex-end
+                flex-wrap: nowrap; //|wrap|wrap-reverse
+                margin: 0 2rem;
+                .circle {
+                    border-radius: 50%;
+                    font-size: 20px;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    box-shadow: 0 0 10px rgba(192, 190, 190, 0.893);
+                    margin: 0 0.3rem;
+                    padding: 0.3rem 0 0 0;
+                    cursor: pointer;
+                    &:hover {
+                    //    color: white;
+                        background-color: #edbe87;
+                    }
+                }
+                .answered {
+                    background: #c1c1c1;
+                }
+                .beingSelected {
+                    background: #0d6efd;
+                    color: white
+                }
+            }
+            .next {
+                display: flex;
+                flex-direction: row; //row|row-reverse|column|column-reverse
+                justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+                align-items: center; //stretch|center|flex-start|flex-end
+                flex-wrap: nowrap; //|wrap|wrap-reverse
+                cursor: pointer;
+            }
+            .finish {
+                // font-size: 15px;
+                font-weight: bold;
+                position: absolute;
+                right: 2rem;
+                padding: 7px 14px;
+                background: rgb(246, 28, 77);
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                box-shadow: 0 0 10px rgba(149, 149, 149, 0.893);
+                color: white;
+                cursor: pointer;
+                &:active{
+                    box-shadow: none;
+                }
+            }
+        }
+        .container {
+            display: flex;
+            flex-direction: row; //row|row-reverse|column|column-reverse
+            justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+            align-items: flex-start; //stretch|center|flex-start|flex-end
+            flex-wrap: nowrap; //|wrap|wrap-reverse
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            .questionList {
+                // border: 1px solid blue;
+                height: 100%; /* 100% Full-height */
+                width: 0; /* 0 width - change this with JavaScript */
+                position: fixed; /* Stay in place */
+                // z-index: 1; /* Stay on top */
+                // top: 0; /* Stay at the top */
+                left: 0;
+                // background-color: rgba(184, 184, 184, 0.893); /* Black*/
+                overflow-x: hidden; /* Disable horizontal scroll */
+                // padding-top: 60px; /* Place content 60px from the top */
+                transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+                text-align: left;
+                // box-shadow: 0 5px 10px rgba(192, 190, 190, 0.893);
+                padding: 0 0 0 0;
+                margin: 0 0 0 0;
+                opacity:0;
+                .beingSelected {
+                    font-weight: bold;
+                }
+                .iconWrapper {
+                    text-align: right;
+                    .closeIcon {
+                        cursor: pointer;
+                    }
+                }
+                .title {
+                    text-align: left;
+                    color: white;
+                    padding: 0 0 0 1rem;
+                }
+                .question {
+                    text-align: left;
+                    margin: 0 0 0.5rem 0;
+                    cursor: pointer;
+                    color: white;
+                    &:hover {
+                        color: #0d6efd;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .openSidebar {
+                width: 20%;
+                color: black;
+                opacity:1;
+                .title {
+                    text-align: left;
+                    color: black;
+                    padding: 0 0 0 1rem;
+                }
+                .question {
+                    text-align: left;
+                    margin: 0 0 0.5rem 0;
+                    cursor: pointer;
+                    color: black;
+                    &:hover {
+                        color: #0d6efd;
+                        font-weight: bold;
+                    }
+                }
+            }
+        
+            .main {
+                width: 100%;
+                // border: 1px solid red;
+                display: grid;
+                grid-template-columns: 40% 60%;
+                justify-content: space-between; //flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit
+                align-content: center;
+                align-items: top;//top, center, end
+                align-self: center;
+                text-align: center;
+                .questionWrapper {
+                    border-right: 1px solid rgba(184, 184, 184, 0.893);
+                    border-left: 1px solid rgba(184, 184, 184, 0.893);
+                    padding: 0 0 0 0;
+                    margin: 0 0 0 0;
+                    .title {
+                        text-align: left;
+                        padding: 0 0 0 1rem;
+                    }
+                    .question {
+                        height: 450px;
+                        padding: 0 1rem;
+                        margin: 0 2rem 0 2rem;
+                        text-align: left;
+                    }
+                    .menuIcon {
+                        text-align: left;
+                        display: flex;
+                        flex-direction: row; //row|row-reverse|column|column-reverse
+                        justify-content: flex-start; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+                        align-items: center; //stretch|center|flex-start|flex-end
+                        flex-wrap: nowrap; //|wrap|wrap-reverse
+                        cursor: pointer;
+                        display: block;
+                        // border: 1px solid red;
+                        margin: 0.5rem 0 0 0.5rem;
+                    }
+                    .menuIconStatusOpen{
+                        display: none;
+                    }
+                }
+                
+                .answerWrapper{
+                    .iconClearWrapper {
+                        position: absolute;
+                        right: 2rem;
+                        font-weight: bold;
+                        top: 15rem;
+                        display: flex;
+                        flex-direction: row; //row|row-reverse|column|column-reverse
+                        justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+                        align-items: center; //stretch|center|flex-start|flex-end
+                        flex-wrap: nowrap; //|wrap|wrap-reverse
+                        cursor: pointer;
+                    }
+                    .answerList {
+                        .row {
+                            display: grid;
+                            grid-template-columns: 10% 90%;
+                            justify-content: space-between; //flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit
+                            align-content: center;
+                            align-items: center;//top, center, end
+                            align-self: center;
+                            text-align: center;
+                            background-color: #fafafa;
+                            margin: 1rem;
+                            padding: 1rem 0;
+                            border-radius: 1rem;
+                            .radio {
+                                // border-right: 1px solid rgba(184, 184, 184, 0.893);
+                                padding: 0 0 0 0;
+                                margin: 0 0 0 0;
+                            }
+                            .answer {
+                                border-left: 1px solid rgba(213, 213, 213, 0.893);
+                                padding: 0 0.5rem;
+                                margin: 0 0 0 0;
+                                text-align: left;
+                            }
+                            &:hover {
+                                background-color: darken(#fafafa, 5%);
+                            }
+                        }
+                    }
+                }
+                
+            }
+            .moveRight {
+                margin: 0 0 0 20%;
+                width: calc(100% - 20%);
+            }
+        }
+    }
+    .viewResult {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        margin: 1rem 0 0 20%;
+        z-index: 20;
+        width: 60%;
+        opacity: 0;
+        display: none;
+        animation: fade-in-out 0.25s ease;
+        background: rgb(240, 240, 240);
+        border-radius: 1rem;
+        box-shadow: 0 0 10px rgba(192, 190, 190, 0.893);
+        padding: 2rem 1rem;
+        .row {
+            display: flex;
+            flex-direction: row; //row|row-reverse|column|column-reverse
+            justify-content: center; //flex-start|flex-end|center|space-between|space-around|space-evenly|
+            align-items: center; //stretch|center|flex-start|flex-end
+            flex-wrap: nowrap; //|wrap|wrap-reverse
+            margin: 0.5rem 0;
+            .key {
+                width: 40%;
+                text-align: left;
+                margin: 0 0 0 0;
+                font-weight: bold;
+                padding: 0 0 0 5rem;
+            }
+            .value {
+                width: 40%;
+                text-align: left;
+                margin: 0 0 0 0;
+            }
+        }
+        .btnWrapper {
+            button {
+                padding: 7px 14px;
+                background: rgba(25, 70, 252, 0.777);
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                box-shadow: 0 0 10px rgba(149, 149, 149, 0.893);
+                color: white;
+                cursor: pointer;
+                &:active{
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    .backShadow {
+        // hiện chầm chậm start
+        display: none;
+        opacity: 0;
+        // transition: opacity 0.5s ease;
+        // hiện chầm chậm end
+        // cho nổi lên, bao trùm màn hình, làm mờ start
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: calc(100% - 60px);
+        top: 60px;
+        background-color: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(3px);
+        // cho nổi lên, bao trùm màn hình, làm mờ end
+        animation: fade-in-out 0.5sn ease;
+    }
+    .appear {
+        opacity: 1;
+        display: block;
+    }
+}

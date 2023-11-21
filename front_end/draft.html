@@ -1,0 +1,46 @@
+snippet: re_styled_component 
+
+npm i styled-components                : cài styled component vào project, đứng tại project
+yarn add styled-components
+
+If you use a package manager like yarn that supports the "resolutions" package.json field, 
+we also highly recommend you add an entry to it as well corresponding to the major version range. 
+This helps avoid an entire class of problems that arise from multiple versions of styled-components being installed in your project.
+In package.json:
+
+{
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
+
+refs: https://www.npmjs.com/package/styled-components
+
+cài extentions vscode-styled-components
+
+import { styled } from 'styled-components'; //import top
+
+const styled_div = styled.div`
+   background: red;
+   text-align: center;
+   > h3
+`
+
+const styled_h1 = styled.h1`
+   background: red;
+   text-align: center;
+`
+styled_img img này sẽ thay cho thẻ img còn các thuộc tính của img sẽ viết trước dấu > như bình thường
+const styled_img = styled.img`
+   background: red;
+   text-align: center;
+`
+
+const styled_condition = styled.div`
+   background: white;
+   color: black;
+   ${(props) => props.selected && css`
+      
+      `}
+`
+
